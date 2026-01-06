@@ -66,8 +66,8 @@ dalam mengelola aktivitas dan kebutuhan harian secara lebih terstruktur dan digi
   </li>
   <br/>
   <li>
-    <strong>Catatan Harian</strong><br/>
-    Digunakan untuk mencatat aktivitas atau hal-hal penting yang dilakukan setiap hari.
+    <strong>Catatan Keuangan Harian</strong><br/>
+    Digunakan untuk mencatat CashFLow ditiap harinya.
   </li>
   <br/>
   <li>
