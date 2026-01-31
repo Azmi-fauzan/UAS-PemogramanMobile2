@@ -152,3 +152,9 @@ Pengembangan lanjutan dapat dilakukan untuk peningkatan fitur dan tampilan.
   dan difokuskan pada implementasi aplikasi mobile berbasis Flutter.
   </em>
 </p>
+
+## 📥 Download APK
+
+APK versi terbaru dapat diunduh melalui GitHub Release:
+
+👉 https://github.com/Azmi-fauzan/UAS-PemogramanMobile2/releases/tag/v1.0.0
