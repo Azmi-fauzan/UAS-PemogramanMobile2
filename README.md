@@ -1,4 +1,7 @@
-<h1 align="center">📱 Daily Needs</h1>
+<h1 align="center">
+  <img src="assets/icon/app_icon.png" width="32" alt="logo" />
+  Daily Needs
+</h1>
 
 <p align="center">
   <em>Aplikasi Mobile Flutter untuk Mendukung Kebutuhan dan Aktivitas Harian</em>
@@ -9,22 +12,17 @@
 <p align="center">
   <strong>Nama</strong> : Azmi Fauzan Alwan <br/>
   <strong>NIM</strong> : 23552011349
-</p>git
+</p>
 
 <br/>
 
 <h2>📌 Deskripsi Aplikasi</h2>
 
 <p align="justify">
-Daily Needs merupakan aplikasi mobile yang dikembangkan berdasarkan kebutuhan dan aktivitas penulis dalam kehidupan sehari-hari.
-Konsep aplikasi ini bersifat fleksibel dan adaptif, karena fitur-fitur yang dikembangkan berasal dari berbagai kebutuhan nyata yang
-sering dilakukan secara manual, seperti mencatat transaksi, mengelola produk, mencatat kegiatan harian, serta mengatur waktu
-melalui pengingat atau timer.
-</p>
-
-<p align="justify">
-Walaupun memiliki tema yang beragam, Daily Needs dirancang sebagai satu kesatuan aplikasi yang bertujuan untuk membantu pengguna
-dalam mengelola aktivitas dan kebutuhan harian secara lebih terstruktur dan digital.
+Daily Needs merupakan aplikasi mobile berbasis Flutter yang dikembangkan
+untuk membantu pengguna dalam mencatat dan mengelola aktivitas harian.
+Aplikasi ini dibuat berdasarkan kebutuhan nyata yang digunakan oleh penulis,
+khususnya dalam pencatatan transaksi dan pengelolaan data pendukung.
 </p>
 
 <br/>
@@ -32,54 +30,98 @@ dalam mengelola aktivitas dan kebutuhan harian secara lebih terstruktur dan digi
 <h2>🎯 Tujuan Pengembangan</h2>
 
 <ul>
-  <li>Menyediakan aplikasi mobile yang dapat digunakan untuk kebutuhan sehari-hari</li>
-  <li>Menerapkan konsep aplikasi dinamis berbasis Flutter</li>
-  <li>Mengimplementasikan REST API dan database</li>
-  <li>Mengembangkan aplikasi yang interaktif dan dapat digunakan langsung oleh pengguna</li>
+  <li>Mengembangkan aplikasi mobile berbasis Flutter</li>
+  <li>Menerapkan penggunaan backend dan database</li>
+  <li>Membuat aplikasi yang dapat dijalankan dan digunakan</li>
 </ul>
+
+<br/>
+
+<h2>🗂️ Struktur Folder Aplikasi</h2>
+
+<pre>
+lib/
+├── main.dart
+│
+├── models/
+│   ├── product_model.dart
+│   ├── finance_model.dart
+│   └── cart_item.dart
+│
+├── services/
+│   ├── database_service.dart
+│   └── product_service.dart
+│
+├── pages/
+│   ├── dashboard_page.dart
+│   ├── dashboard_content_page.dart
+│   ├── kasir_page.dart
+│   ├── finance_page.dart
+│   ├── finance_month_detail_page.dart
+│   ├── finance_year_detail_page.dart
+│   ├── timer_page.dart
+│   ├── login_page.dart
+│   └── register_page.dart
+│
+├── widgets/
+│   ├── add_transaction_sheet.dart
+│   └── soft_input.dart
+│
+└── utils/
+    └── currency_formatter.dart
+</pre>
 
 <br/>
 
 <h2>🧩 Fitur & Halaman Aplikasi</h2>
 
-<p>Daily Needs memiliki 7 halaman utama yang seluruhnya bersifat dinamis dan dapat digunakan oleh pengguna:</p>
+<ul>
+  <li>Dashboard</li>
+  <li>Kasir / Transaksi</li>
+  <li>Catatan Keuangan</li>
+  <li>Timer</li>
+  <li>Login & Register</li>
+</ul>
 
-<ol>
-  <li>
-    <strong>Dashboard</strong><br/>
-    Menampilkan ringkasan data aktivitas, transaksi, dan informasi utama aplikasi.
-  </li>
-  <br/>
-  <li>
-    <strong>Kasir</strong><br/>
-    Digunakan untuk melakukan transaksi penjualan, menghitung total harga, dan menyimpan data transaksi.
-  </li>
-  <br/>
-  <li>
-    <strong>Produk</strong><br/>
-    Halaman untuk melakukan manajemen data produk, seperti menambah, mengubah, dan menghapus produk.
-  </li>
-  <br/>
-  <li>
-    <strong>Timer</strong><br/>
-    Fitur pengingat waktu yang digunakan untuk membantu aktivitas tertentu, seperti mengatur durasi pekerjaan atau produksi.
-  </li>
-  <br/>
-  <li>
-    <strong>Catatan Keuangan Harian</strong><br/>
-    Digunakan untuk mencatat CashFLow ditiap harinya.
-  </li>
-  <br/>
-  <li>
-    <strong>Riwayat Transaksi</strong><br/>
-    Menampilkan daftar transaksi yang telah dilakukan beserta detailnya.
-  </li>
-  <br/>
-  <li>
-    <strong>Login</strong><br/>
-    Halaman autentikasi pengguna sebelum dapat mengakses fitur utama aplikasi.
-  </li>
-</ol>
+<br/>
+
+<h2>📸 Screenshot Aplikasi</h2>
+
+<p>
+Screenshot setiap halaman aplikasi diletakkan pada folder
+<code>screenshots/</code> dan ditampilkan sebagai berikut:
+</p>
+
+<ul>
+  <li><strong>Dashboard</strong></li>
+  <img src="screenshots/dashboard.jpeg" width="300"/>
+
+  <br/><br/>
+
+
+  <li><strong>Kasir</strong></li>
+  <img src="screenshots/produk.jpeg" width="300"/>
+
+  <br/><br/>
+
+  <li><strong>Catatan Keuangan</strong></li>
+  <img src="screenshots/finance.jpeg" width="300"/>
+
+  <br/><br/>
+
+  <li><strong>Timer</strong></li>
+  <img src="screenshots/timer.jpeg" width="300"/>
+
+  <br/><br/>
+
+  <li><strong>Login</strong></li>
+  <img src="screenshots/login.jpeg" width="300"/>
+
+  <br/><br/>
+
+  <li><strong>Register</strong></li>
+  <img src="screenshots/register.jpeg" width="300"/>
+</ul>
 
 <br/>
 
@@ -87,8 +129,8 @@ dalam mengelola aktivitas dan kebutuhan harian secara lebih terstruktur dan digi
 
 <ul>
   <li>Flutter & Dart</li>
-  <li>REST API (Mock API)</li>
-  <li>Database (Firebase / Supabase)</li>
+  <li>Supabase</li>
+  <li>PostgreSQL</li>
 </ul>
 
 <br/>
@@ -96,7 +138,8 @@ dalam mengelola aktivitas dan kebutuhan harian secara lebih terstruktur dan digi
 <h2>🚧 Status Pengembangan</h2>
 
 <p>
-Aplikasi ini masih dalam tahap pengembangan dan akan terus disempurnakan sesuai dengan kebutuhan serta ketentuan tugas.
+Aplikasi Daily Needs berada pada tahap fungsional dan dapat digunakan.
+Pengembangan lanjutan dapat dilakukan untuk peningkatan fitur dan tampilan.
 </p>
 
 <br/>
@@ -104,6 +147,8 @@ Aplikasi ini masih dalam tahap pengembangan dan akan terus disempurnakan sesuai 
 <hr/>
 
 <p align="center">
-  <em>Daily Needs dikembangkan sebagai bagian dari tugas perkuliahan dan bertujuan untuk menjadi aplikasi mobile yang fungsional,
-  dinamis, dan relevan dengan kebutuhan sehari-hari.</em>
+  <em>
+  Daily Needs dikembangkan sebagai bagian dari tugas perkuliahan
+  dan difokuskan pada implementasi aplikasi mobile berbasis Flutter.
+  </em>
 </p>

@@ -29,28 +29,52 @@ environment:
 # versions available, run `flutter pub outdated`.
 dependencies:
   flutter:
+
     sdk: flutter
+  audioplayers: ^6.5.1
+  speech_to_text : ^7.3.0
+  flutter_tts: ^3.7.2
+  sqflite: ^2.4.2
+  path: ^1.8.4
+  intl: ^0.19.0
+  image_picker: ^1.2.1
+  supabase_flutter: ^2.12.0
+  flutter_bloc: ^8.1.3
+  http: ^1.2.3
+  
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
 
+
+
 dev_dependencies:
+  flutter_launcher_icons: ^0.14.4
   flutter_test:
     sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter_launcher_icons:
+    android: true
+    ios: true
+    image_path: "assets/icon/app_icon.png"
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
   # activated in the `analysis_options.yaml` file located at the root of your
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
-  flutter_lints: ^6.0.0
+
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
 # The following section is specific to Flutter packages.
 flutter:
+  assets :
+      - assets/audio/alarm.mp3
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
